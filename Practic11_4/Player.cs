@@ -52,7 +52,7 @@ namespace Practic11_4
             }
         }
         public bool IsAlive {
-            get => isAlive && health > 0; // Проверяем оба условия
+            get => isAlive && health > 0;
             set => isAlive = value;
         }
         public Player (int level, int health) { 
